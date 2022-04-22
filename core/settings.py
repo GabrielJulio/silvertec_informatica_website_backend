@@ -100,8 +100,6 @@ LANGUAGES = [
     ('pt-br', 'Português (Brasileiro)')
 ]
 
-LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale') ]
-
 TIME_ZONE = 'America/Fortaleza'
 
 USE_I18N = True
