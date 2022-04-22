@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from decouple import config
 
@@ -18,7 +19,10 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-SILVERTEC_APPS = []
+SILVERTEC_APPS = [
+    'core',
+    'processor',
+]
 
 THIRTY_PARTY_APPS = [
     'rest_framework',
@@ -90,6 +94,13 @@ REST_FRAMEWORK = {
 }
 
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = [
+    ('en', 'English (USA)'),
+    ('pt-br', 'Português (Brasileiro)')
+]
+
+LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale') ]
 
 TIME_ZONE = 'America/Fortaleza'
 

@@ -1,0 +1,17 @@
+#: processor/models.py:7
+msgid "processor"
+msgstr "processador"
+
+#: processor/models.py:8
+#, fuzzy
+#| msgid "processor"
+msgid "processors"
+msgstr "processadores"
+
+#: processor/models.py:14
+msgid "name"
+msgstr "nome"
+
+#: processor/models.py:16
+msgid "brand"
+msgstr "marca"

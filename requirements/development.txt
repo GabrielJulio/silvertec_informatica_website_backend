@@ -1,2 +1,5 @@
 -r base.txt
 django-shortcuts==1.6
+autopep8==1.6
+pycodestyle==2.8
+toml==0.10.2
